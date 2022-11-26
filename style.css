@@ -28,13 +28,13 @@ nav {
 }
 
 main {
-
-  background-size:;
+  background-image:url(./assets/img/Backgorudstarwras.png) ;
+  background-size:cover;
   height:;
 }
 
 body{
-  background-image:url(./assets/img/Backgorud star wras.png) ;
+  background-image:url(./assets/img/Backgorudstarwras.png) ;
   background-repeat: no-repeat:
   background-size: cover;
   background-position: center center;
