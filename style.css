@@ -83,3 +83,8 @@ main {
     display: block;
     width: max-content;
   }
+
+  .apresentacao p {
+
+    background-color: tomato;
+  }
