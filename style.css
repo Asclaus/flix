@@ -22,9 +22,7 @@ body {
 a {
   color: black;
   text-decoration: none;
-  transition: 0.5;
-  margin-inline-start: 10px;
-  margin-inline-end: 0px;
+  transition-duration: 0.2s;
 }
 
 nav {
@@ -44,24 +42,31 @@ nav {
 
 main {
 }
-  main h3 {
+  .lista-jogo {
+    display: flex;
+    justify-content: center;
+  }
+  .lista-jogo .jogo {
+    width: 257px;
+    height: 290px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #fff;
+    transition-duration: .2s;
+  }
+    .lista-jogo .jogo:hover {
+      transform: scale(1.1);
+    }
+
+  .lista-jogo .jogo h3 {
     color: black;
-    margin-inline-start: 10px;
-    margin-inline-end: 0px;
+    padding-left: 1rem;
   }
 
-
- .lista-jogo {
-  display: flex;
-  justify-content: center;
- }
- .jogo {
-  width: 257px;
-  height: 290px;
-  border-radius: 15px;
-  margin-top: 100px;
-  background-color: #fff;
-  }
-
+  .lista-jogo .jogo a {
+    padding-left: 1rem;
+    color: #fff;
+    background-color: cadetblue;
+    border-radius: .5rem;
   }
 
