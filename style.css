@@ -24,7 +24,7 @@ a {
   text-decoration: none;
   transition: 0.5;
   margin-inline-start: 10px;
-margin-inline-end: 0px;
+  margin-inline-end: 0px;
 }
 
 nav {
@@ -47,7 +47,7 @@ main {
   main h3 {
     color: black;
     margin-inline-start: 10px;
-margin-inline-end: 0px;
+    margin-inline-end: 0px;
   }
 
 
