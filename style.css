@@ -88,3 +88,13 @@ main {
 
     background-color: tomato;
   }
+
+#play {
+    position: fixed;
+    top: 5rem;
+    width: 90%;
+    left: 5%;
+    height: 80vh;
+    background-color: white;
+    display: none;
+}
