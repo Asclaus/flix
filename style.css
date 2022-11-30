@@ -20,6 +20,8 @@ body {
 }
 
 a {
+  font-family: ;
+  src: url(starjedi.ttf) format(truetype);
   color: black;
   text-decoration: none;
   transition-duration: 0.2s;
