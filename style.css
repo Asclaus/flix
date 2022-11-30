@@ -47,7 +47,7 @@ nav {
 }
   .logo {
     font-size: 24px;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 4px;
     color: white;
     font-family: 'starwars' ;
