@@ -1,13 +1,16 @@
 * {
   color: white;
   box-sizing: border-box;
-  @font-face {
-    font-family: 'starwars'  ;
-    src: url(starjedi.ttf) format(truetype);
-
-  }
+ 
 
   
+}
+
+@font-face {
+  font-family: 'starwars'  ;
+  src: url(starjedi.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -27,14 +30,11 @@ body {
 }
 
 a {
-  @font-face {
-    font-family: 'starwars'  ;
-    src: url(starjedi.ttf) format(truetype);
 
-  }
   color: black;
   text-decoration: none;
   transition-duration: 0.2s;
+  font-family: 'starwars' ;
 }
 
 nav {
@@ -50,6 +50,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: white;
+    font-family: 'starwars' ;
   }
 
 main {
