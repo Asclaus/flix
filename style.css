@@ -1,6 +1,10 @@
 * {
   color: white;
   box-sizing: border-box;
+  font-family: 'starwars'  ;
+    src: url(starjedi.ttf) format(truetype);
+
+  
 }
 
 html {
