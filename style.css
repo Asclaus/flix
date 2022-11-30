@@ -80,7 +80,7 @@ main {
   .lista-jogos .jogo img {
     width: 100%;
     height: 10rem;
-    object-fit: cover;
+    object-fit: cover; 
   }
 
   .lista-jogos .jogo h3 {
