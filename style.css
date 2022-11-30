@@ -51,6 +51,7 @@ nav {
     letter-spacing: 4px;
     color: white;
     font-family: 'starwars' ;
+  
   }
 
 main {
@@ -100,6 +101,7 @@ main {
   .apresentacao p {
  
     font-family: 'starwars' ;
+    color: yellow;
   
    }
 
