@@ -98,10 +98,10 @@ main {
   }
 
   .apresentacao p {
-  font-family: 'starwars';
+ 
+    font-family: 'starwars' ;
   
-  
-  }
+   }
 
 #play {
     position: fixed;
