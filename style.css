@@ -98,11 +98,7 @@ main {
   }
 
   .apresentacao p {
-  @font-face {
-    font-family: 'starwars'  ;
-    src: url(assets/img/starjedi.ttf) format(truetype);
-
-  }
+  font-family: 'starwars';
   
   
   }
