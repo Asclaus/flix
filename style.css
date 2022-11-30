@@ -49,7 +49,7 @@ nav {
     font-size: 24px;
     text-transform: none;
     letter-spacing: 4px;
-    color: white;
+    color: yellow;
     font-family: 'starwars' ;
   
   }
@@ -101,7 +101,7 @@ main {
   .apresentacao p {
  
     font-family: 'starwars' ;
-    color: yellow;
+    color: lightskyblue;
   
    }
 
