@@ -59,24 +59,25 @@ var iframe = document.querySelector('#play');
 
 // document (página inteira)
 document
-  // busca no documento por qualquer TAG A dentro de uma CLASSE "jogo" e retorna como uma [LISTA]
-  .querySelectorAll('.jogo a')
-    // LOOP (estrutura de repetição) executa um trecho de código pra cada A (botao)
-    .forEach((botao, i) => {
-      // executa um trecho de código (function) pra cada evento "CLICK" no botao
-      botao.addEventListener('click', function(evento) {
-        // parar o evento que ocorreria naturalmente durante o click
-        evento.preventDefault();
+  // executa um trecho de código (function) pra cada evento "CLICK" no botao
+  .addEventListener('click', function (evento) {
+    // SE o nome da TAG do elemento do EVENTO ("click") for A
+    if (evento.target.tagName == 'A') {
+      // parar o evento que ocorreria naturalmente durante o click
+      evento.preventDefault();
 
-        // variável LINK recebe o atributo "href" do botao (tag A)
-        var link = botao.getAttribute('href');
+      // criando variável botão para armazenar o elemento clicado
+      var botao = evento.target;
 
-        // puxa a lista de classes do IFRAME e adiciona a class "exibir"
-        iframe.classList.add('exibir');
-        // define um atributo "SRC" no IFRAME com valor de LINK (variável)
-        iframe.setAttribute('src', link);
-      });
-    });
+      // variável LINK recebe o atributo "href" do botao (tag A)
+      var link = botao.getAttribute('href');
+
+      // puxa a lista de classes do IFRAME e adiciona a class "exibir"
+      iframe.classList.add('exibir');
+      // define um atributo "SRC" no IFRAME com valor de LINK (variável)
+      iframe.setAttribute('src', link);
+    }
+  });
 
 // busca em todo document
 document
